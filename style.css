@@ -28,7 +28,7 @@
 }
 
 .paragraphehome {
-  font-size: 0.7rem;
+  font-size: 1.4rem;
   margin-top: 2rem;
   padding: 2rem;
   text-align: start;
@@ -86,7 +86,7 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-decoration: none;
   padding: 1rem;
   margin-top: 3rem;
@@ -266,7 +266,7 @@ body {
   padding: 10px;
   text-align: center;
   margin-bottom: 2rem;
-  margin-left: 20rem;
+  margin-left: 15rem;
   margin-top: 1rem;
 }
 
@@ -280,12 +280,12 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.8rem;
   color: #333745;
 }
 
 .textvaleur {
-  font-size: 2.5rem;
+  font-size: 2.9rem;
   color: #e63462;
   font-weight: 800;
 }
@@ -304,10 +304,13 @@ h1 {
   background-color: #A4A4A4;
 }
 
+footer {
+  font-size: 1.4rem;
+}
+
 .footer {
-  margin-bottom: 0;
+  margin: 5rem auto 0.5rem;
   text-align: center;
-  font-size: 0.5rem;
 }
 
 .switch {
