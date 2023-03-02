@@ -62,13 +62,13 @@ footer {
 .custom-btn2 {
   margin-top: 6rem;
   font-family: 'Shantell Sans', cursive;
-  width: 410px;
+  width: 420px;
   height: 90px;
   color: #fff;
   border-radius: 20px;
   padding: 10px 25px;   
   font-weight: 800;
-  font-size: 2.2rem;
+  font-size: 2rem;
   cursor: pointer;  
   background: rgb(230,52,98);
 background: linear-gradient(112deg, rgba(230,52,98,1) 68%, rgba(231,54,98,1) 69%, rgba(254,95,85,1) 94%); 
