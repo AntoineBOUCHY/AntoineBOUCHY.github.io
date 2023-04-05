@@ -199,9 +199,9 @@ a.main-filled-button {
   font-size: 13px;
   border-radius: 25px;
   padding: 13px 25px;
-  background-color: #fff;
+  background-color: #ebae77;
   text-transform: uppercase;
-  color: #ebae77;
+  color: #fff;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -211,8 +211,8 @@ a.main-filled-button {
 }
 
 a.main-filled-button:hover {
-  color: #fff;
-  background-color: #ebae77;
+  color: #ebae77;
+  background-color: #fff;
 }
 
 a.main-button-icon {
