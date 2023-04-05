@@ -134,17 +134,18 @@ body {
 
      /* Couleur de fond de la scroll bar */
      ::-webkit-scrollbar {
-      background-color: rgb(29, 29, 29);
+      background: rgb(50,50,50);
+background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   }
 
   /* Couleur de la thumb de la scroll bar */
   ::-webkit-scrollbar-thumb {
-      background-color: #484848;
+      background-color: #7e7e7e;
   }
 
   /* Couleur de la thumb au survol */
   ::-webkit-scrollbar-thumb:hover {
-      background-color: #3f3f3f;
+      background-color: #555454;
   }
 
   /* Couleur de la thumb lorsqu'elle est active */
@@ -348,7 +349,8 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background: rgb(50,50,50);
+background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -400,6 +402,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  
+}
+
+.logoimg {
+  min-width: 270px;
+  max-width: 385px;
 }
 
 
@@ -443,6 +451,11 @@ header
     width: 100%;
     background-color: #fff;
     margin-left: 0px;
+    
+  }
+  .logoimg {
+    min-width: 180px;
+    max-width: 260px;
   }
 }
 
@@ -702,7 +715,8 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background: rgb(50,50,50);
+background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -1090,7 +1104,7 @@ subscribe
 
 #subscribe {
   padding: 80px 0px;
-  background-image: url(../images/slide-02.jpg);
+  background-image: url(../images/terasse.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1439,7 +1453,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #339b9e 0%, #68cc98 100%);
+  background-image: linear-gradient(121deg, rgba(50,50,50,1) 45%, rgba(235,174,119,1) 100%);
   left: 0;
   right: 0;
   top: 0;
