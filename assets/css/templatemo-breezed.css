@@ -162,6 +162,10 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   html, body {
     overflow-x: hidden;
   }
+  .infos {
+    width: 46px;
+    height: 46px;
+}
   .mobile-top-fix {
     margin-top: 30px;
     margin-bottom: 0px;
@@ -453,6 +457,10 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
     margin-left: 0px;
     
   }
+  .infos {
+    width: 46px;
+    height: 46px;
+}
   .logoimg {
     min-width: 180px;
     max-width: 260px;
@@ -806,6 +814,10 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   .header-area .main-nav .nav {
     display: flex !important;
   }
+  .infos {
+    width: 46px;
+    height: 46px;
+}
 }
 
 
