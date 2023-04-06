@@ -370,6 +370,9 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
 .background-header .main-nav .nav li a {
   color: #c7c7c7!important;
 }
+#cartecadeau {
+  font-weight: bold;
+}
 
 .background-header .main-nav .nav li:hover a {
   color: #ebae77!important;
@@ -589,7 +592,7 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   height: 40px;
   text-indent: -9999em;
   z-index: 99;
-  right: 40px;
+  right: 15px;
   display: none;
 }
 
@@ -737,7 +740,7 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .header-area .menu-trigger {
     display: block !important;
