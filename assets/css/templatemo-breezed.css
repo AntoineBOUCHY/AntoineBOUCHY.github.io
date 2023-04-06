@@ -1141,11 +1141,12 @@ subscribe
 #subscribe2 {
   padding: 80px 0px;
   background-image: url(../images/louge.webp);
-  background-position: center center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  display: block  ;
   
 }
 
