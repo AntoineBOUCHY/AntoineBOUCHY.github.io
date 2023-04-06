@@ -368,7 +368,7 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #c7c7c7!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -1114,10 +1114,12 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   text-transform: uppercase;
   letter-spacing: 0.25px;
   margin-bottom: 15px;
+  color:#eee
 }
 
 .features-item .features-content p {
   margin-bottom: 15px;
+  color: #ddd
 }
 
 
