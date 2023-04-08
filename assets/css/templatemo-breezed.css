@@ -178,6 +178,20 @@ background: linear-gradient(121deg, rgba(50,50,50,1) 30%, rgba(64,64,64,1) 78%);
   }
 }
 
+.menus{
+  max-width: 1300px;
+  padding: 1rem;
+}
+
+.menus img{
+  max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin: 1rem 0
+}
 a.main-stroked-button {
   font-size: 13px;
   border-radius: 25px;
