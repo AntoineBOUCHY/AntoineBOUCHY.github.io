@@ -9,11 +9,30 @@
 <body>
 <div id="message-portable"><p>Uniquement visible sur portable</p></div>
 <div class="img-fill">
-  <video loop muted autoplay playsinline preload="none" type="video/mp4" src="assets/img/video2.mp4"></video>
-  <div class="welcome-message">
+    <video loop muted autoplay playsinline preload="none" type="video/mp4" src="assets/img/video2.mp4"></video>
+    <div class="welcome-message">
     <h4>Bienvenue Manon </h4>
-    <p>Tu es séléctionné pour participer aux Olympiades du 17 Février 2024 </p>
+    <p>Tu es séléctionné pour participer aux Olympiades du 17 Février 2024 !</p>
+    </div>
+    <div id="continue-arrow" class="arrow-container">
+ 
+  <div id="discover-more" class="discover-container">
+    <span class="discover-text">Découvre la suite</span>
+    <p class="stay-text">Ou reste ici mais y a rien à faire...</p>
+  </div>
 </div>
 </div>
 </body>
+<script>document.addEventListener('DOMContentLoaded', (event) => {
+  // Affiche l'icône de la flèche après 3 secondes
+  setTimeout(() => {
+    document.getElementById('continue-arrow').classList.add('show');
+  }, 2000);
+
+  // Affiche le texte "Découvre la suite" et "Ou reste ici mais y a rien à faire..." après 4 secondes
+  setTimeout(() => {
+    document.getElementById('discover-more').classList.add('show');
+    document.querySelector('.stay-text').classList.add('show-stay-text');
+  }, 3000);
+});</script>
 </html>

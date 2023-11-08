@@ -21,9 +21,9 @@ h4 {
   .img-fill video {
     height: 97vh;
     width: 100%;
-    filter: brightness(70%) ;
+    filter: brightness(60%) ;
     object-fit: cover;
-    animation: fadeInBrightness 4s ease-in forwards; /* Applique l'animation */
+    animation: fadeInBrightness 4s ease-out forwards; /* Applique l'animation */
     position: relative; 
 }
 /* Style par défaut : le message est caché */
@@ -49,8 +49,60 @@ h4 {
   padding: 0.6rem 0.5rem;
   width: 60vw;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   /* Ajouter plus de styles si nécessaire */
 }
+.arrow-container {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: none; /* Initialement caché */
+  z-index: 3;
+}
+
+.scroll-down {
+  color: #fff; /* ou toute autre couleur */
+  font-size: 2rem; /* Taille de l'icône */
+}
+
+.discover-container {
+  opacity: 0; /* Initialement transparent */
+  transition: opacity 1s ease-in-out;
+}
+
+.discover-text {
+  display: block;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  padding: 1rem 0.5rem;
+  background-image: url(../img/marbre.jpg);
+  border-radius: 4px;
+  text-transform: uppercase;
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7), 
+              0 0 20px 10px rgba(255, 255, 255, 0.5),
+              0 0 25px 15px rgba(255, 255, 255, 0.3);
+}
+
+.stay-text {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+.show-stay-text {
+  opacity: 1; /* Rendre le texte visible */
+  transition-delay: 1s; /* Ajoute un délai après l'apparition du bouton */
+}
+
 
 /* Requête média pour les écrans plus larges que 964px */
 @media screen and (min-width: 965px) {
