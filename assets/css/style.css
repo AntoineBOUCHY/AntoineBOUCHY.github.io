@@ -1,0 +1,69 @@
+*{
+  transition: all ease-in 0.3s;
+}
+body {
+  font-family: sans-serif;
+  background-color: #090801;
+}
+h4 {
+  margin: 0;
+}
+
+@keyframes fadeInBrightness {
+  from {
+    filter: brightness(0%);
+  }
+  to {
+    filter: brightness(70%);
+  }
+}
+
+  .img-fill video {
+    height: 97vh;
+    width: 100%;
+    filter: brightness(70%) ;
+    object-fit: cover;
+    animation: fadeInBrightness 4s ease-in forwards; /* Applique l'animation */
+    position: relative; 
+}
+/* Style par défaut : le message est caché */
+#message-portable {
+  display: none;
+  position: fixed; /* Positionnement fixe pour rester au milieu */
+  top: 50%; /* Centré verticalement */
+  left: 50%; /* Centré horizontalement */
+  transform: translate(-50%, -50%); /* Ajustement précis du centre */
+  color: white; /* Texte blanc */
+  font-size: 2em; /* Taille du texte */
+  z-index: 10; /* Assurez-vous qu'il est au-dessus de tout autre contenu */
+}
+.welcome-message {
+  position: absolute; /* Positionnement absolu par rapport à son parent */
+  top: 0; /* En haut de la div parente */
+  left: 50%; /* Centrer horizontalement */
+  transform: translateX(-50%); /* Ajustement précis pour le centrage horizontal */
+  z-index: 2; /* S'assurer que le texte est au-dessus de la vidéo */
+  color: white; /* Couleur du texte */
+  margin-top: 5rem;
+  border-radius: 12px;
+  padding: 0.6rem 0.5rem;
+  width: 60vw;
+  text-align: center;
+  /* Ajouter plus de styles si nécessaire */
+}
+
+/* Requête média pour les écrans plus larges que 964px */
+@media screen and (min-width: 965px) {
+  .img-fill {
+    display: none; /* Cache le contenu vidéo pour les grands écrans */
+  }
+
+  #message-portable {
+    display: flex; /* Affiche le message */
+    justify-content: center;
+    background-color: black; /* Fond noir */
+    width: 100vw; /* Largeur complète de la vue */
+    height: 100vh;
+    align-items: center;
+  }
+}
