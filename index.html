@@ -7,9 +7,9 @@
 <title>Olympiades</title>
 </head>
 <body>
-<div id="message-portable"><p>Uniquement visible sur portable</p></div>
+<!--  <div id="message-portable"><p>Uniquement visible sur portable</p></div>
 <div class="img-fill">
-    <video loop muted autoplay playsinline preload="none" type="video/mp4" src="assets/img/video2.mp4"></video>
+    <video loop muted autoplay playsinline preload="none" type="video/mp4" src="assets/img/video21.mp4"></video>
     <div class="welcome-message">
     <h4>Bienvenue Manon </h4>
     <p>Tu es séléctionné pour participer aux Olympiades du 17 Février 2024 !</p>
@@ -21,18 +21,27 @@
     <p class="stay-text">Ou reste ici mais y a rien à faire...</p>
   </div>
 </div>
-</div>
+</div>  -->
+<div class="container">
+  <video class="bg-video"loop muted autoplay playsinline preload="none" type="video/mp4" >
+    <source src="assets/img/video21.mp4" type="video/mp4" />
+  </video>
+  <p class="text">Olympiades <br>2024</p>
+</div><div id="discover-more" class="discover-container">
+    <a href="page2.html"><span class="discover-text">Découvrir</span></a>
+    <p class="stay-text">Ou reste ici mais y a rien à faire...</p>
+  </div>
 </body>
 <script>document.addEventListener('DOMContentLoaded', (event) => {
   // Affiche l'icône de la flèche après 3 secondes
   setTimeout(() => {
     document.getElementById('continue-arrow').classList.add('show');
-  }, 2000);
+  }, 1000);
 
   // Affiche le texte "Découvre la suite" et "Ou reste ici mais y a rien à faire..." après 4 secondes
   setTimeout(() => {
     document.getElementById('discover-more').classList.add('show');
     document.querySelector('.stay-text').classList.add('show-stay-text');
-  }, 3000);
+  }, 2000);
 });</script>
 </html>
