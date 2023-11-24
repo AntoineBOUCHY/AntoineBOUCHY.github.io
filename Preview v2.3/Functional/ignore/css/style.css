@@ -60,7 +60,7 @@
 
         .dd-center {
             display: flex;
-            height: 85vh;
+            height: 70vh;
 
         }
 
@@ -86,6 +86,24 @@
         .dd-box:hover {
             transform: translateY(-10px);
             box-shadow: 0 0 48px 0 rgba(38, 53, 71, .4);
+        }
+
+        .btn {
+            margin: auto;
+        text-align: center;
+        margin-bottom: 2rem;
+        border: aliceblue solid 2px;
+        width: 200px;
+        background: dodgerblue;
+        border-radius: 10px;
+        color: white;
+        transition: .3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 48px 0 rgba(38, 53, 71, .4);
+            background: rgb(70, 156, 241);
         }
 
         .dd-box h2 {
